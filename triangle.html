@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let a = parseInt(prompt("Enter the value of A = "));
+        console.log("Value of A = ", a);
+        let b = parseInt(prompt("Enter the value of B = "));
+        console.log("Value of B = ", b);
+        let c = parseInt(prompt("Enter the value of C = "));
+        console.log("Value of C = ",c);
+
+        function triangle() {
+            let sum = a+b+c;
+
+            if (sum ==100 && a!=0 && b!=0 && c!=0) {
+                console.log("Triangle is valid");
+            }
+            else{
+                console.log("Triangle is not valid");
+            }
+        }
+
+
+        triangle();
+    </script>
+
+</body>
+
+</html>
